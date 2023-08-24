@@ -86,7 +86,7 @@ function App() {
   return (
     <>
      {/* <BrowserRouter> */}
-     <Navbar title="TextUtils" mode={mode} toggleMode={toggleMode} aboutText="about"/>
+     <Navbar title="TextUtils" mode={mode} toggleMode={toggleMode}/>
      <Alert alert={alert}/>
      <div className='container my-3'>
      {/* <React.Fragment> */}
